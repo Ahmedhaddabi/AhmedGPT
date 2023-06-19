@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch('https://ahmed-91vd.onrender.com', {
+  const response = await fetch('https://ahmedgpt-git-main-ahmedhaddabi.vercel.app/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
