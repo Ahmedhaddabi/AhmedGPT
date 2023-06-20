@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch('https://ahmedgpt.ahmedhaddabi.com/', {
+  const response = await fetch('https://ahmedgpt2.vercel.app/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
